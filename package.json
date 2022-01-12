@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/BoKok/employeeTracker/issues"
   },
-  "homepage": "https://github.com/BoKok/employeeTracker#readme"
+  "homepage": "https://github.com/BoKok/employeeTracker#readme",
+  "keywords": [],
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
 }
