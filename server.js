@@ -4,6 +4,7 @@ require("console.table");
 
 const connection = mysql.createConnection({
     host: 'localhost',
+    port: 3001,
     user: 'root',
     database: 'db'
 });
@@ -60,7 +61,7 @@ function inquireprompt() {
   }
 
   function viewEmployees() {
-    console.log("yes");
+
     var sql = "SELECT * FROM employee";
     connection.query("SELECT * FROM employee", function (err, res) {
       if (err) throw err;
